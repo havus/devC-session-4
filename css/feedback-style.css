@@ -7,8 +7,20 @@ body {
 	background-image: url(../assets/regal.png);
 }
 
-.main {
+.tittle {
 	margin-top: 100px;
+	background-image: linear-gradient(to right, rgba(67, 233, 123, 0) 10%, 
+		rgba(67, 233, 123, .7) 50%, 
+		rgba(67, 233, 123, 0) 90%);
+}
+
+.tittle h1 {
+	font-weight: bold;
+	color: white;
+}
+
+.main {
+	margin-top: 50px;
 }
 
 button {
