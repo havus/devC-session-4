@@ -32,10 +32,10 @@ body,
 
 .jumbotron {
 	padding: 0 !important;
-	height: 700px;
+	/*height: 700px;*/
 	overflow: hidden !important;
 	display: block;
-	/*background-color: black;*/
+	background-color: transparent !important;
 }
 
 .carousel.slide {
@@ -48,4 +48,26 @@ body,
 
 button {
 	margin: 30px !important;
+}
+
+.close {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.modal-body .col-sm-1.offset-1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.gambar {
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+}
+
+.gambar img {
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
 }
