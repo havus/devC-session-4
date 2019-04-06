@@ -5,15 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/feedback-style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Feedback</title>
 </head>
 
 <body>
-  <form action="https://formspree.io/havus.it@gmail.com" method="POST">
-    <input type="email" name="email">
-    <input type="text" name="subject">
-    <input type="text" name="main">
-  </form>
+	<div class="container">	
+		<div class="main">	
+		  <form action="https://formspree.io/havus.it@gmail.com" method="POST">
+		  	<div class="form-group row">
+				<label for="email" class=" offset-3 col-sm-1 col-form-label">Email</label>
+			    <input id="email" class="form-control col-sm-5" type="email" name="email">
+		  	</div>
+		  	<div class="form-group row">
+		    	<label for="subject" class="offset-3 col-sm-1 col-form-label">Subject</label>
+		    	<input id="subject" class="form-control col-sm-5" type="text" name="subject">
+		  	</div>
+		    <div class="form-group row">
+		    	<label for="message" class="offset-3 col-sm-1 col-form-label">Message</label>
+		    	<textarea class="form-control col-sm-5" id="exampleFormControlTextarea1" rows="3" placeholder="Type something.."></textarea>
+		    </div>
+		  </form>
+		</div>
+	</div>
 
 
 </body>
