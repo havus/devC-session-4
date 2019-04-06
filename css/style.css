@@ -1,1 +1,51 @@
- 
+@font-face {
+	font-family: 'rubikregular';
+	src: url('../font/rubik-regular-webfont.woff2') format('woff2'),
+		url('../font/rubik-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body,
+* {
+	font-family: 'rubikregular';
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	background-image: linear-gradient(to bottom, rgba(114, 137, 218, .8) 80%,
+		rgba(114, 137, 218, .1));
+	height: 70px;
+}
+
+.navbar a {
+	color: white;
+	letter-spacing: 4px;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	color: white;
+	text-shadow: 1px 1px 8px #2c2f33;
+}
+
+.jumbotron {
+	padding: 0 !important;
+	height: 700px;
+	overflow: hidden !important;
+	display: block;
+	/*background-color: black;*/
+}
+
+.carousel.slide {
+	height: 650px;
+}
+
+.main {
+	min-height: 150px;
+}
+
+button {
+	margin: 30px !important;
+}
